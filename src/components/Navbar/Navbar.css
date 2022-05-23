@@ -1,0 +1,28 @@
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background-color: aliceblue;
+}
+.navbar {
+  background: white;
+  min-height: 12vh;
+}
+
+.navbar a:hover {
+  color: #3498db !important;
+  font-weight: bold;
+}
+.navbar-brand {
+  font-family: "Grape Nuts";
+  font-size: 2.5rem;
+  font-weight: 600;
+  /* object-fit: contain;
+  width: 100px; */
+  /* border: 1px solid green; */
+}
+
+.navbar__Logo {
+  height: 60px;
+  /* width: 200px; */
+}

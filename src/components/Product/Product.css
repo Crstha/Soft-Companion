@@ -1,0 +1,30 @@
+.product__Card {
+  width: 30%;
+  border: 2px solid rgb(243, 242, 242);
+  height: 40vh;
+  margin: 20px 10px;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.product__Img {
+  width: 100%;
+  transition: all 10s ease;
+}
+.product__Card:hover .product__Img {
+  transform: translateY(-100%);
+}
+
+@media screen and (max-width: 480px) {
+  .product__Card {
+    width: 40%;
+    height: 20vh;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .product__Card {
+    width: 40%;
+    height: 30vh;
+  }
+}

@@ -1,0 +1,96 @@
+.expertise_card {
+  width: 100%;
+  height: 65vh;
+  /* margin: 0 0 0 0; */
+  /* padding: 0 0 0 0; */
+  border-radius: none;
+  margin-top: 2%;
+  box-shadow: 2px 2px 5px 5px gray;
+  /* border: 1px solid yellow; */
+}
+
+.hr-line {
+  width: 50px;
+  border: 2px solid green;
+}
+.vr-line {
+  border-left: 4px solid blue;
+  background-color: rgb(211, 207, 207);
+}
+
+.list-group {
+  /* border: 1px solid violet; */
+}
+.right__Paragraph {
+  margin-top: 10px;
+  font-size: large;
+}
+
+.list-group-item {
+  width: auto;
+  display: flex;
+  height: 100px;
+  align-items: center;
+  border-top: none;
+  border-bottom: none;
+  /* border: 1px solid hotpink; */
+}
+
+.img {
+  /* border: 1px solid red; */
+  height: 65px;
+  width: 65px;
+  margin-right: 30px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+
+  /* background-color: transparent; */
+}
+
+.container-fluid {
+  /* border: 1px solid green; */
+}
+.container {
+  margin-top: 2%;
+  height: 80vh;
+  /* border: 1px solid red; */
+}
+
+@media screen and (max-width: 600px) {
+  .left {
+    visibility: hidden;
+    display: none;
+  }
+  .container-fluid {
+    /* height: 75vh; */
+    border: 1px solid blue;
+  }
+  .container {
+    height: 100vh;
+    border: 1px solid green;
+  }
+  .expertise_card {
+    /* border: 1px solid red; */
+    height: 85vh;
+    padding: 15px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .container {
+    height: 125vh;
+    border: 1px solid red;
+  }
+  .expertise_card {
+    height: 105vh;
+  }
+}
+/* @media screen and (max-width: 800px) {
+  .container {
+    height: 85vh;
+    border: 1px solid red;
+  }
+  .expertise_card {
+    height: 75vh;
+  }
+} */
